@@ -37,13 +37,7 @@
     },
     "blocks": {
       "type": "dynamiczone",
-      "components": [
-        "blocks.paragraph",
-        "blocks.paragraph-with-image",
-        "blocks.hero-section",
-        "blocks.heading",
-        "blocks.full-image"
-      ]
+      "components": []
     }
   }
 }

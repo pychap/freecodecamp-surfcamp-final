@@ -1,17 +1,13 @@
 {
   "collectionName": "components_elements_logos",
   "info": {
-    "displayName": "Logo"
+    "displayName": "Logo",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "logoText": {
-      "type": "string"
-    },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "type": "media",
       "multiple": false
     }

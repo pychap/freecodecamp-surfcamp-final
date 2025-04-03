@@ -4,8 +4,7 @@
   "info": {
     "singularName": "page",
     "pluralName": "pages",
-    "displayName": "Page",
-    "description": ""
+    "displayName": "Page"
   },
   "options": {
     "draftAndPublish": true
@@ -16,15 +15,20 @@
       "type": "string"
     },
     "description": {
-      "type": "string"
+      "type": "text"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.info-block",
+        "blocks.hero-section",
+        "blocks.featured-article",
+        "blocks.subscribe"
+      ]
     },
     "slug": {
       "type": "uid",
       "targetField": "title"
-    },
-    "blocks": {
-      "type": "dynamiczone",
-      "components": []
     }
   }
 }

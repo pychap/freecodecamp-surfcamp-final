@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_navigation_items",
+  "info": {
+    "displayName": "Navigation Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
+
